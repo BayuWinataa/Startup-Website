@@ -7,10 +7,11 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="h-3000">
+<body>
+    <!-- nav section -->
     <div class="bg-hijau ">
         <nav class=" container mx-auto px-5 pt-4">
-            <div class="flex  justify-between">
+            <div class="flex justify-between">
                 <div class=" flex gap-3">
                     <img src="../public/assets/logo.svg" alt="logo">
                     <p class="text-3xl text-white font-medium ">Start</p>
@@ -18,7 +19,7 @@
                 <img src="../public/assets/hamburger-menu.svg" alt="">
             </div>
         </nav>
-        <div class="flex justify-center flex-col px-5 gap-8 py-10">
+        <div class="container mx-auto flex justify-center flex-col md:flex-row-reverse px-5 gap-8 py-10">
             <img src="../public/assets/Hero.svg" alt="hero" class="w-full">
             <div class="flex flex-col gap-8">
                 <div class="flex flex-col gap-4">
@@ -34,9 +35,10 @@
         </div>
     </div>
 
+    <!-- partner section -->
     <div class="container mx-auto  bg-white items-center justify-center flex flex-col gap-14 my-5">
         <div class="flex flex-col gap-4 items-center">
-            <p class="text-base text-hijau uppercase font-bold">
+            <p class="text-base text-hijau uppercase font-bold tracking-widest">
                 partners
             </p>
             <p class="text-2xl font-bold">Lorem Ipsum Dolor</p>
@@ -51,9 +53,93 @@
         </div>
         <button class="bg-black px-8 py-3 rounded-md   text-xl text-white">Learn More</button>
 
+
     </div>
 
+    <!-- section -->
+    <div class="bg-hijau">
+        <div class="container mx-auto flex flex-col gap-8 px-5 py-8  ">
+            <img src="../public/assets/Group1.svg" alt="">
+            <div class="flex flex-col gap-5">
+                <h4 class="text-white text-2xl font-bold">Lorem ipsum dolor sit amet consectetur</h4>
+                <p class="text-base text-white opacity-75 font-light">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
+                    nobis cum est eos
+                    error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                <button class="bg-white px-8 py-3 rounded-md  text-xl text-black w-[170px] text-nowrap">Learn
+                    More</button>
+            </div>
+        </div>
+    </div>
 
+    <!-- section -->
+    <div class="bg-white">
+        <div class="container mx-auto flex flex-col gap-8 px-5 py-8  ">
+            <img src="../public/assets/Group2.svg" alt="">
+            <div class="flex flex-col gap-5">
+                <h4 class="text-black text-2xl font-bold">Lorem ipsum dolor sit amet consectetur</h4>
+                <p class="text-base text-black opacity-75 font-light">Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
+                    nobis cum est eos
+                    error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                <button class="bg-black px-8 py-3 rounded-md  text-xl text-white w-[170px] text-nowrap">Learn
+                    More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- team -->
+    <div class="container mx-auto  bg-white items-center justify-center flex flex-col gap-14 my-5">
+        <div class="flex flex-col gap-4 items-center">
+            <p class="text-base text-hijau uppercase font-bold tracking-widest">
+                team
+            </p>
+            <h4 class="text-2xl font-bold">Our Talents</h4>
+            <p class="text-xl text-center">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+        </div>
+        <div class="flex flex-col gap-9">
+            <div class=" px-10 py-5 shadow-2xl">
+                <img src="../public//assets//Avatar.svg" alt="avatar" class="mb-5">
+                <h4 class="font-bold text-2xl mb-4">Peg Legge</h4>
+                <p>CEO</p>
+            </div>
+            <div class=" px-10 py-5 shadow-2xl">
+                <img src="../public//assets//Avatar2.svg" alt="avatar" class="mb-5">
+                <h4 class="font-bold text-2xl mb-4">Richard Guerra</h4>
+                <p>CTO</p>
+            </div>
+            <div class=" px-10 py-5 shadow-2xl">
+                <img src="../public//assets//Avatar3.svg" alt="avatar" class="mb-5">
+                <h4 class="font-bold text-2xl mb-4">Alexandra Stolz</h4>
+                <p>DESIGNER</p>
+            </div>
+            <div class=" px-10 py-5 shadow-2xl">
+                <img src="../public//assets//Avatar4.svg" alt="avatar" class="mb-5">
+                <h4 class="font-bold text-2xl mb-4">Janet Bray</h4>
+                <p>DEVELOPER</p>
+            </div>
+        </div>
+        <button class="bg-black px-8 py-3 rounded-md  text-xl text-white w-[170px] text-nowrap">Learn
+            More</button>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-hijau ">
+        <Footer class=" container mx-auto px-5 py-8 flex flex-col justify-center items-center">
+            <div class="flex gap-4 ">
+                <a href="#"><ion-icon name="logo-facebook" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-pinterest" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-tiktok" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube" class="text-white text-2xl"></ion-icon></a>
+            </div>
+            <p class="text-white text-xl">© Start, 2022. All rights reserved.</p>
+        </Footer>
+    </div>
 </body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
 </html>
