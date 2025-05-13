@@ -1,0 +1,36 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Composer
+composer.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TailwindCSS build
+*.css.map
+*.js.map
+
+# Log files
+*.log
+
+# Cache
+/storage/framework/cache/data/*
+/storage/logs/*
+/bootstrap/cache/*

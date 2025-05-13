@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+	--font-Inter: 'Inter', sans-serif;
+	/* --font-Work: 'Work Sans', sans-serif;
+	--font-Inter: 'Crimson Text', sans-serif; */
+	--color-ungu: #5d50c6;
+	--color-pink: #f85e9f;
+	--color-orange: #ff5722;
+	--color-hijau: #74c69d;
+}
+
+@font-face {
+	font-family: 'Circular STD';
+	src: url('../public/font/CircularStd-Bold.woff') format('woff');
+}
+
+html {
+	font-family: Work Sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:Crimson Text;
+}
