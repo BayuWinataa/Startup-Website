@@ -10,19 +10,29 @@
 <body>
     <!-- nav section -->
     <div class="bg-hijau ">
-        <nav class=" container mx-auto px-5 pt-4">
+        <nav class=" container mx-auto px-5 py-7">
             <div class="flex justify-between">
-                <div class=" flex gap-3">
-                    <img src="../public/assets/logo.svg" alt="logo">
+                <div class=" flex gap-3  items-center">
+                    <img src="../public/assets/logo.svg" alt="logo" width="50px">
                     <p class="text-3xl text-white font-medium ">Start</p>
                 </div>
-                <img src="../public/assets/hamburger-menu.svg" alt="">
+                <div class="md:hidden items-center">
+                    <img src="../public/assets/hamburger-menu.svg" alt="">
+                </div>
+                <div class="hidden md:flex items-center ">
+                    <ul class="flex gap-5 ">
+                        <li><a href="" class="text-white text-lg">Home</a></li>
+                        <li><a href="" class="text-white text-lg">Portfolio</a></li>
+                        <li><a href="" class="text-white text-lg">Services</a></li>
+                        <li><a href="" class="text-white text-lg">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="container mx-auto flex justify-center flex-col md:flex-row-reverse px-5 gap-8 py-10">
-            <img src="../public/assets/Hero.svg" alt="hero" class="w-full">
-            <div class="flex flex-col gap-8">
-                <div class="flex flex-col gap-4">
+        <div class="container mx-auto flex justify-center flex-col md:flex-row-reverse px-5 gap-8  py-10">
+            <img src="../public/assets/Hero.svg" alt="hero" class="w-full ">
+            <div class="flex flex-col gap-8 justify-center  ">
+                <div class="flex flex-col gap-4 ">
                     <p class="text-base font-bold text-white tracking-widest">WELCOME</p>
                     <h1 class="text-3xl text-white font-bold">Lorem ipsum dolor sit amet consectetur</h1>
                     <p class="text-base text-white opacity-75 font-light">Lorem ipsum, dolor sit amet consectetur
@@ -36,32 +46,37 @@
     </div>
 
     <!-- partner section -->
-    <div class="container mx-auto  bg-white items-center justify-center flex flex-col gap-14 my-5">
-        <div class="flex flex-col gap-4 items-center">
-            <p class="text-base text-hijau uppercase font-bold tracking-widest">
-                partners
-            </p>
-            <p class="text-2xl font-bold">Lorem Ipsum Dolor</p>
-            <p class="text-xl text-center">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
-        </div>
-        <div class="flex flex-col gap-10 items-center justify-center ">
-            <img src="../public/assets/google_.svg" alt="">
-            <img src="../public/assets/micosoft.svg" alt="">
-            <img src="../public/assets/airbnb.svg" alt="">
-            <img src="../public/assets/facebook.svg" alt="">
-            <img src="../public/assets/spotify.svg" alt="">
-        </div>
-        <button class="bg-black px-8 py-3 rounded-md   text-xl text-white">Learn More</button>
+    <section class="bg-white my-5">
+        <div class="container mx-auto items-center justify-center flex flex-col gap-14 ">
+            <div class="flex flex-col gap-4 items-center">
+                <p class="text-base text-hijau uppercase font-bold tracking-widest">
+                    partners
+                </p>
+                <p class="text-2xl font-bold">Lorem Ipsum Dolor</p>
+                <p class="text-xl text-center">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-10 md:gap-16 items-center justify-center ">
+                <img src="../public/assets/google_.svg" alt="" width="100px">
+                <img src="../public/assets/micosoft.svg" alt="" width="100px">
+                <img src="../public/assets/airbnb.svg" alt="" width="100px">
+                <img src="../public/assets/facebook.svg" alt="" width="100px">
+                <img src="../public/assets/spotify.svg" alt="" width="100px">
+            </div>
+            <button class="bg-black px-8 py-3 rounded-md   text-xl text-white">Learn More</button>
 
 
-    </div>
+        </div>
+    </section>
+
 
     <!-- section -->
-    <div class="bg-hijau">
-        <div class="container mx-auto flex flex-col gap-8 px-5 py-8  ">
-            <img src="../public/assets/Group1.svg" alt="">
-            <div class="flex flex-col gap-5">
-                <h4 class="text-white text-2xl font-bold">Lorem ipsum dolor sit amet consectetur</h4>
+    <section class="bg-hijau px-5 py-8">
+        <div class="container mx-auto flex flex-col md:flex-row gap-8 ">
+            <div class="w-full ">
+                <img src="../public/assets/Group1.svg" alt="" class="w-full">
+            </div>
+            <div class="flex flex-col gap-5 justify-center w-full ">
+                <h4 class="text-white text-2xl md:text-3xl font-bold">Lorem ipsum dolor sit amet consectetur</h4>
                 <p class="text-base text-white opacity-75 font-light">Lorem ipsum, dolor sit amet consectetur
                     adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
                     nobis cum est eos
@@ -70,14 +85,16 @@
                     More</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- section -->
-    <div class="bg-white">
-        <div class="container mx-auto flex flex-col gap-8 px-5 py-8  ">
-            <img src="../public/assets/Group2.svg" alt="">
-            <div class="flex flex-col gap-5">
-                <h4 class="text-black text-2xl font-bold">Lorem ipsum dolor sit amet consectetur</h4>
+    <div class="bg-white px-5 py-8">
+        <div class="container mx-auto flex flex-col md:flex-row-reverse gap-8 ">
+            <div class="w-full">
+                <img src="../public/assets/Group2.svg" alt="" class="w-full h-auto">
+            </div>
+            <div class="flex flex-col gap-5 w-full justify-center">
+                <h4 class="text-black text-xl md:text-3xl  font-bold">Lorem ipsum dolor sit amet consectetur</h4>
                 <p class="text-base text-black opacity-75 font-light">Lorem ipsum, dolor sit amet consectetur
                     adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
                     nobis cum est eos
@@ -97,7 +114,7 @@
             <h4 class="text-2xl font-bold">Our Talents</h4>
             <p class="text-xl text-center">Lorem ipsum, dolor sit amet consectetur <br>adipisicing elit.</p>
         </div>
-        <div class="flex flex-col gap-9">
+        <div class="flex flex-col md:flex-row gap-9">
             <div class=" px-10 py-5 shadow-2xl">
                 <img src="../public//assets//Avatar.svg" alt="avatar" class="mb-5">
                 <h4 class="font-bold text-2xl mb-4">Peg Legge</h4>
@@ -119,13 +136,13 @@
                 <p>DEVELOPER</p>
             </div>
         </div>
-        <button class="bg-black px-8 py-3 rounded-md  text-xl text-white w-[170px] text-nowrap">Learn
-            More</button>
+        <button class="bg-black px-8 py-3 rounded-md  text-xl text-white w-[170px] text-nowrap">View Team</button>
     </div>
 
     <!-- footer -->
     <div class="bg-hijau ">
-        <Footer class=" container mx-auto px-5 py-8 flex flex-col justify-center items-center">
+        <Footer
+            class=" container mx-auto px-5 py-8 flex flex-col md:flex-row justify-center md:justify-between items-center">
             <div class="flex gap-4 ">
                 <a href="#"><ion-icon name="logo-facebook" class="text-white text-2xl"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-instagram" class="text-white text-2xl"></ion-icon></a>
@@ -139,6 +156,7 @@
         </Footer>
     </div>
 </body>
+
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
