@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Company</title>
+</head>
+
+<body>
+    <!-- nav section -->
+    <section class="bg-hijau ">
+        <nav class=" container mx-auto px-5 py-7">
+            <div class="flex justify-between">
+                <div class=" flex gap-3  items-center">
+                    <img src="../public/assets/logo.svg" alt="logo" width="50px">
+                    <p class="text-3xl text-white font-medium ">Start</p>
+                </div>
+                <div class="md:hidden items-center">
+                    <img src="../public/assets/hamburger-menu.svg" alt="">
+                </div>
+                <div class="hidden md:flex items-center ">
+                    <ul class="flex gap-5 ">
+                        <li><a href="./index.html" class="text-white text-lg">Home</a></li>
+                        <li><a href="./portfolio.html" class="text-white text-lg">Portfolio</a></li>
+                        <li><a href="#" class="text-white text-lg">Services</a></li>
+                        <li><a href="#" class="text-white text-lg">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- works -->
+    <section>
+        <div class="container mx-auto py-8 flex flex-col justify-center items-center ">
+            <div class="flex flex-col gap-4 justify-center items-center">
+                <p class="font-bold text-lg tracking-widest text-green-500 uppercase">works</p>
+                <h1 class="font-bold text-2xl md:text-4xl">Portfolio</h1>
+                <p class="text-xl text-center">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit.</p>
+            </div>
+
+            <!-- Grid image -->
+            <div class="my-10 grid grid-cols-1 md:grid-cols-2 gap-10 w-full px-4 md:px-10">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+                <img src="../public/assets/project.jpg" alt="Portfolio" class="w-full h-auto object-cover">
+            </div>
+
+            <button class="bg-black px-8 py-3 rounded-md text-xl text-white w-[170px] text-nowrap">
+                Learn More
+            </button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="bg-hijau ">
+        <Footer
+            class=" container mx-auto px-5 py-8 flex flex-col md:flex-row justify-center md:justify-between items-center">
+            <div class="flex gap-4 ">
+                <a href="#"><ion-icon name="logo-facebook" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-pinterest" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-tiktok" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp" class="text-white text-2xl"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube" class="text-white text-2xl"></ion-icon></a>
+            </div>
+            <p class="text-white text-xl">© Start, 2022. All rights reserved.</p>
+        </Footer>
+    </div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+</html>
