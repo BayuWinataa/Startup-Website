@@ -17,9 +17,6 @@
                     <img src="../public/assets/logo.svg" alt="logo" width="50px">
                     <p class="text-3xl text-white font-medium ">Start</p>
                 </div>
-                <div class="md:hidden items-center">
-                    <img src="../public/assets/hamburger-menu.svg" alt="">
-                </div>
                 <div class="hidden md:flex items-center ">
                     <ul class="flex gap-5 ">
                         <li><a href="#" class="text-white text-lg">Home</a></li>
@@ -30,6 +27,9 @@
                 </div>
             </div>
         </nav>
+
+
+
         <div class="container mx-auto flex justify-center flex-col md:flex-row-reverse px-5 gap-8  py-10">
             <img src="../public/assets/Hero.svg" alt="hero" class="w-full ">
             <div class="flex flex-col gap-8 justify-center  ">
@@ -45,6 +45,34 @@
             </div>
         </div>
     </div>
+
+    <!-- nav mobile -->
+    <section class="bg-emerald-500 fixed bottom-0 w-full z-10 md:hidden">
+        <div class="container mx-auto">
+            <ul class="flex justify-around py-3 text-white">
+                <!-- Active: Home -->
+                <li class="flex flex-col items-center text-sm text-yellow-300">
+                    <ion-icon name="home" class="text-yellow-300 w-6 h-6 mb-1"></ion-icon>
+                    <a href="../src/index.html" class="font-semibold">Home</a>
+                </li>
+
+                <li class="flex flex-col items-center text-sm">
+                    <ion-icon name="briefcase" class="w-6 h-6 mb-1"></ion-icon>
+                    <a href="../src/portfolio.html">Portfolio</a>
+                </li>
+
+                <li class="flex flex-col items-center text-sm">
+                    <ion-icon name="settings" class="w-6 h-6 mb-1"></ion-icon>
+                    <a href="#">Services</a>
+                </li>
+
+                <li class="flex flex-col items-center text-sm">
+                    <ion-icon name="mail" class="w-6 h-6 mb-1"></ion-icon>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <!-- partner section -->
     <section class="bg-white my-5">
@@ -140,7 +168,7 @@
     </div>
 
     <!-- footer -->
-    <div class="bg-hijau ">
+    <div class="bg-hijau pb-16 md:pb-0">
         <Footer
             class=" container mx-auto px-5 py-8 flex flex-col md:flex-row justify-center md:justify-between items-center">
             <div class="flex gap-4 ">
@@ -155,6 +183,10 @@
             <p class="text-white text-xl">© Start, 2022. All rights reserved.</p>
         </Footer>
     </div>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 
 
